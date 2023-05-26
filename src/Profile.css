@@ -1,0 +1,93 @@
+label {
+    display: flex;
+    flex-direction: column;
+    margin-right: 35px;
+    color: gray;
+    font-size: 11px;
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: grey;
+    font-size: 25px;
+}
+
+input {
+    border-radius: 3px;
+    border: 2px solid #E0EBFE;
+    height: 20px;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    color: white;
+    background-color: #0363FC;
+    width: 80px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: #0363FC;
+    border-radius: 7px;
+}
+
+.containerProfile {
+    border-radius: 1%;
+    border: 2px solid #E0EBFE;
+    height: 90vh;
+    width: 60vh;
+    margin-left: 30%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerProfile div {
+    margin-left: 40px;
+}
+
+.fastLastName,
+.cityState,
+.zipCodeCountry {
+    display: flex;
+    flex-direction: row;
+}
+
+.fastLastName input,
+.cityState input,
+.zipCodeCountry input {
+    width: 11vw;
+}
+
+.headerProfile img {
+    margin-left: 150px;
+    border-radius: 50%;
+    border: 2px solid #E0EBFE;
+}
+
+.email input,
+.address input,
+.contactsNumber input,
+.password input {
+    width: 25vw;
+}
+
+@media(max-width : 760px) {
+    .containerProfile {
+        margin-left: 15%;
+    }
+
+    .fastLastName input,
+    .cityState input,
+    .zipCodeCountry input {
+        width: 100%;
+    }
+
+    .email input,
+    .address input,
+    .contactsNumber input,
+    .password input {
+        width: 44vh;
+    }
+}
